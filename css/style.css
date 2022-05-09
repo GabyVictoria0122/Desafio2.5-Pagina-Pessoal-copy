@@ -1,0 +1,90 @@
+body {
+  font-family: "Lora", serif;
+}
+.background {
+  background-color: #2e2d4c;
+  background-image: url(../img/background-foods-v4.png);
+  background-attachment: fixed;
+}
+.conteudo {
+  line-height: 3rem;
+  width: 72%;
+  background-color: white;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.cabecalho {
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding: 30px;
+}
+
+.logo img {
+  width: 220px;
+}
+
+.navigation li {
+  display: inline-block;
+  width: 150px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  color: #494848;
+  text-decoration: none;
+}
+
+.navigation li a:active {
+  color: #2e2d4c;
+  text-decoration: none;
+}
+
+.avatar {
+  float: left;
+  width: 140px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.fonte-media {
+  font-size: 1.7rem;
+}
+
+.titulo {
+  font-size: 1.9 rem;
+  margin-top: 50px;
+}
+
+.titulo-fonte {
+  font-family: "Exo 2", sans-serif;
+}
+
+.habilidades label {
+  width: 280px;
+  display: inline-block;
+}
+
+.habilidades progress {
+  accent-color: #2e2d4c;
+}
+
+.fotos img {
+  border-radius: 8px;
+  width: 400px;
+  height: 240px;
+  filter: grayscale(0.4);
+}
+
+.fotos img:hover {
+  filter: none;
+}
