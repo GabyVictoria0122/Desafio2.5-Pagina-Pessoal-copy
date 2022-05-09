@@ -1,29 +1,68 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lora", serif;
 }
+
+.titulo {
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.titulo-fonte {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.9rem;
+}
+
+.fonte-grande {
+  font-size: 3.2rem;
+}
+
+.fonte-media {
+  font-size: 1.7rem;
+}
+
+.fonte-pequena {
+  font-size: 1.2rem;
+}
+
 .background {
   background-color: #2e2d4c;
   background-image: url(../img/background-foods-v4.png);
   background-attachment: fixed;
+  padding: 2px;
 }
 .conteudo {
-  line-height: 3rem;
+  line-height: 3.5rem;
   width: 72%;
   background-color: white;
-  margin: auto auto auto 50px;
+  color: #2e2d4c;
+  margin: auto;
   padding: 50px;
   border-radius: 10px;
+  margin-bottom: 300px;
 }
 
 .cabecalho {
   text-align: center;
   color: white;
-  margin: auto;
+  margin: 100px auto;
   padding: 30px;
+  width: 72%;
 }
 
 .logo img {
   width: 220px;
+}
+
+.navigation {
+  margin-bottom: 50px;
+}
+
+ul.experiencia {
+  padding-left: 26px;
 }
 
 .navigation li {
@@ -35,7 +74,7 @@ body {
 
 .navigation li a:link,
 .navigation li a:visited {
-  color: gray;
+  color: #c0bcc9;
   text-decoration: none;
 }
 
@@ -56,21 +95,8 @@ body {
   margin-right: 20px;
 }
 
-.fonte-media {
-  font-size: 1.7rem;
-}
-
-.titulo {
-  font-size: 1.9 rem;
-  margin-top: 50px;
-}
-
-.titulo-fonte {
-  font-family: "Exo 2", sans-serif;
-}
-
 .habilidades label {
-  width: 280px;
+  width: 600px;
   display: inline-block;
 }
 
