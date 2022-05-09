@@ -10,7 +10,7 @@ body {
   line-height: 3rem;
   width: 72%;
   background-color: white;
-  margin: auto;
+  margin: auto auto auto 50px;
   padding: 50px;
   border-radius: 10px;
 }
@@ -103,4 +103,17 @@ body {
 
 .btn-inicio:hover {
   opacity: 1;
+}
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #22003a;
+  color: white;
+  text-align: center;
+}
+
+.cor {
+  color: white;
+  margin: 5px;
 }
