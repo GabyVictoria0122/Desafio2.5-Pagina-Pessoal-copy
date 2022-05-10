@@ -22,6 +22,7 @@ body {
 
 .fonte-media {
   font-size: 1.7rem;
+  text-align: justify;
 }
 
 .fonte-pequena {
@@ -96,21 +97,28 @@ ul.experiencia {
 }
 
 .habilidades label {
-  width: 600px;
+  width: 300px;
   display: inline-block;
 }
 
 .habilidades progress {
   accent-color: #2e2d4c;
+  width: 75%;
+  display: inline-block;
+}
+
+.fotos {
+  text-align: center;
 }
 
 .fotos img {
   border-radius: 8px;
-  width: 400px;
+  width: 40%;
   height: 240px;
   filter: grayscale(0.4);
+  display: inline-block;
+  margin: 15px;
 }
-
 .fotos img:hover {
   filter: none;
 }
